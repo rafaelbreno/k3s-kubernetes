@@ -53,7 +53,6 @@ jobs:
     permissions:
       contents: write
     strategy:
-      max-parallel: 1
       matrix:
         include: ${{ fromJson(needs.poll.outputs.matrix) }}
     uses: ./.github/workflows/sync-k8s-tags.yaml
