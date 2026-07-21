@@ -10,8 +10,8 @@ const (
 var (
 	gitMajor = "1"
 	gitMinor = "33"
-	gitVersion   = "v1.33.3-k3s1"
-	gitCommit    = "5a12bfb95082aea01e67312c91878aff93944471"
+	gitVersion   = "v1.33.13-k3s1"
+	gitCommit    = "a2eaeaa8f6ae554acc83ba950fc10413c63019eb"
 	gitTreeState = "clean"
-	buildDate = "2025-07-16T14:38:43Z"
+	buildDate = "2026-07-21T19:37:49Z"
 )
