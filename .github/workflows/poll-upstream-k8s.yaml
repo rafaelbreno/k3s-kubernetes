@@ -1,8 +1,6 @@
 name: Poll upstream k8s and sync tags
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
